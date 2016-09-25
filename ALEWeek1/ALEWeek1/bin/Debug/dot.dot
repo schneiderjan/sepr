@@ -1,0 +1,14 @@
+graph logic {
+node [ fontname = "Arial" ]
+Node6 [ label = "C" ]
+Node5 [ label = "B" ]
+Node4 [ label = "~" ]
+Node3 [ label = "A" ]
+Node2 [ label = "|" ]
+Node1 [ label = "&" ]
+Node4 -- Node5
+Node2 -- Node3
+Node2 -- Node4
+Node1 -- Node2
+Node1 -- Node6
+}
